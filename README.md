@@ -1,2 +1,2 @@
-# Cydiapp
-Cydiapp
+# CydiaRepo
+Cydia Repo
