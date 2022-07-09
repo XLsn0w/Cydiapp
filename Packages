@@ -99,85 +99,45 @@ Description: An app that helps you to create and manage Theos projects
 Author: @CrazyMind90
 Name: iTheosMaker
 
-Package: com.cydiabc.a-bypass
-Version: 1.5.2
+Package: com.cydiabc.crackerxi
+Version: 1.1.16
 Architecture: iphoneos-arm
 Maintainer: Ai-小苹果
-Installed-Size: 844
-Depends: mobilesubstrate, com.muirey03.libmryipc, applist, com.rpgfarm.libaptoast, preferenceloader
-Filename: debs/屏蔽越狱检测王者荣耀(支持11.0-14.3)a-bypass_1.5.2_iphoneos-arm.deb
-Size: 98648
-MD5sum: af21e08ef4dc6e7a033d5acd0785f8cc
-SHA1: c4361c44160157794748e5f41ecb68c27d70578a
-SHA256: d5d70029507125ae208ce86e8a53687bca7b15416b2596b83eef6683a28e85dd
-Section: 系统
-Description: 一款强力有效 简单设置的屏蔽越狱插件，能解决iOS13王者荣耀，使命召唤等一些游戏的闪退，支付宝开启指纹面容等等，依赖源：https://repo.co.kr/
+Depends: firmware (>= 11.0), ldid (>=2.0)
+Filename: debs/CrackerXI_1.1.16_iphoneos-arm.deb
+Size: 9961142
+MD5sum: e31c39979355591bb5184d0544bd4288
+SHA1: 6ae4e47a681d0b038ab64a96625569eae6f6fe0a
+SHA256: af39c554f393706a1554d91ee9f5d5af1c6367338d8e82c68f96a494b089684c
+Section: 工具
+Description: iosApp砸壳工具,普通用户可用于导出App
+ 如出现打开“CrackerXI+”闪退,即表明此应用未正确联网,至于如何联网，请移步百度
 A12: 1
-Author: Baw Appie
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Icon2: 12.png
-Name: A-Bypass越狱屏蔽
+Author: c0pyn1nja
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 5.png
+Name: CrackerXI App脱壳工具
 Sponsor: Ai-小苹果
 
-Package: com.cydiabc.kernbypass
-Version: 0.0.7-1
+Package: com.cydiabc.dumpdecrypter
+Version: 1.2-9.4
 Architecture: iphoneos-arm
-Maintainer: akusio
-Installed-Size: 568
-Depends: mobilesubstrate, applist, preferenceloader
-Filename: debs/内核屏蔽_iphoneos-arm.deb
-Size: 26704
-MD5sum: edb5614381704ed99018d83e04a2f84d
-SHA1: f0ceebe7b5348ba0a85e72fb1b7c7ada429cd945
-SHA256: 12dd7dd4a5717d4695cd3a6573b5320e37e25971b217e4ced7576525b5af6121
-Section: 系统
-Description: KernBypass内核级屏蔽越狱，土拨鼠编译版，支持iOS11~13，自带服务启动脚本，若重启失效，重装本插件即可
+Maintainer: Ai-小苹果™
+Installed-Size: 1072
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: debs/砸壳工具Dumpdecrypter_1.2-9.4_iphoneos-arm.deb
+Size: 235210
+MD5sum: 45e254f1629be9311b5f125514a999b9
+SHA1: fb83a94604512ed92b2e80d57c5f620f413b2a30
+SHA256: a64f63cfdb76a6d9383660e73b4f9ac7d4cdf4601618ed2267a0202fd029aae8
+Section: 工具
+Description: DumpDecrypter是基于dumpdecrypted的修改封装<br>使用方式：通过桌面的DumpDecrypter应用程序选择需要解密的应用<br>在dumpdecrypted基础上增加可选删除小组件可选删除手表组件，可选删除版本限制，可选删除设备限制<br>解密完整应用并导出至/var/mobile/Documents/DumpDecrypter，选择应用后自动杀掉应用进程重新开始，解密前加载所有Frameworks等
 A12: 1
-Author: akusio/土拨鼠
-Icon: file:///Applications/Cydia.app/Sections/System.png
-Icon2: 12.png
-Name: KernBypass内核级屏蔽
+Author: Netskao
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 5.png
+Name: DumpDecrypter砸壳工具
 Sponsor: Ai-小苹果™
-
-Package: com.cydiabc.shadow
-Version: 2.0.20
-Architecture: iphoneos-arm
-Maintainer: Ai-小苹果
-Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common (>= 1.13.1), applist, preferenceloader, com.rpetrich.rocketbootstrap (>= 1.0.7~beta3)
-Filename: debs/屏蔽_iphoneos-arm.deb
-Size: 253350
-MD5sum: 2e945ade5b8ed3d2217c21bd85e3d937
-SHA1: fb3a8aa7ae7d7d8a525286e0c79fc35fc0463601
-SHA256: 70e9b10430d76619053874a3a0060c320b1428caf11cc5a3a8a98dd984219881
-Section: 系统
-Description: 轻量级通用越狱检测，已完整汉化
-A12: 1
-Author: jjolano
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Icon2: 12.png
-Name: Shadow 屏蔽越狱检测
-Sponsor: Ai-小苹果
-
-Package: com.cydiami.mfzs
-Version: 1.0-1
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 782
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/美化设置_清爽桌面_屏蔽越狱应用提示和去除部分软件广告.deb
-Size: 117058
-MD5sum: 07a3f6d5b764d0a382978e7986406a96
-SHA1: b87334156688705b81ce525a485c6c66fb39ce3b
-SHA256: a0b7157607d9dac74d7cbd7642fea34a4e9bd6bbcb15f2ade462e4bf297d08c7
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mfzsDp
-Description: 美化设置，清爽桌面，屏蔽越狱应用提示和去除部分软件广告
-Tag: purpose::extension
-Author: Cydiami <admin@cydiami.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mfzsDp
-Dev: netskao
-Name: Cydiamimfzs 蜜蜂助手
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.fish.pubg
 Version: 1.5.6
@@ -355,6 +315,23 @@ Depiction: https://opa334.github.io/depic/SafariPlus/index.html
 Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
 Name: Safari Plus (Cepheiless)
 
+Package: com.powen.permasignerios
+Version: 0.1.2
+Architecture: iphoneos-arm
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid
+Filename: debs/com.powen.permasignerios.0.1.2.deb
+Size: 1770992
+MD5sum: 2629499d037404628070f25328538629
+SHA1: f7bd532fffe5b4768bc5af7b8cbd5c874388a40d
+SHA256: d2eaf48a6f34b69e0a7786d1aa20627f91c1e97e7aa763febf1796b3bd8f4a8b
+Section: Applications
+Description: permasigner on iOS
+Author: Powen <powen0966091716@gmail.com>
+Depiction: https://github.com/powenn/permasigneriOS
+Name: permasigneriOS
+
 Package: com.saurik.substrate.safemode
 Version: 0.9.6001.1
 Architecture: iphoneos-arm
@@ -469,28 +446,6 @@ Section: 功能插件
 Author: 1+1
 Name: 微信语音转发
 
-Package: com.xiaoer.wechatxiaoer
-Version: 3.7
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 3028
-Depends: mobilesubstrate, firmware (>= 5.0), com.rpetrich.rocketbootstrap (>= 1.0.2)
-Filename: debs/智能语音转发_防撤回_后台常驻_抢红包收款_定时群发_自动加好友_自动进群_关键词回复_批量退群.deb
-Size: 664152
-MD5sum: a6c9ecfa8f564e86e720b79be5a07db7
-SHA1: a108806adc25b7d968016de112ffac45b663c7fa
-SHA256: d96ffc102da1527d7ccfc04c7c4ad0973793f01e2e0036f80a0c18ab05b1d4b0
-Section: Tweaks
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatxiaoerDp
-Description: 智能聊天|(收藏)语音转发|防撤回|后台常驻|抢红包收款｜定时群发|自动加好友|自动进群|关键词回复｜批量退群
-Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-Author: Wechat XiaoEr <tryboy2137@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatxiaoerDp
-Dev: xiaoer
-Name: 微信小二
-Sponsor: thebigboss.org <http://thebigboss.org>
-
 Package: com.xleo.wechatremovedfriend
 Version: 0.1-9
 Architecture: iphoneos-arm
@@ -529,27 +484,6 @@ Priority: standard
 Multi-Arch: foreign
 Description: GNU lexer derived from Lex
 Name: Flex
-
-Package: fun.asmo.wechatfriendcheck
-Version: 0.9.2
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 3420
-Depends: firmware (>= 8.0), mobilesubstrate
-Filename: debs/检测微信好友状态-批量删除好友.deb
-Size: 782594
-MD5sum: 0341e1e37321680e455d884fab4c55cf
-SHA1: 9ec97f3ac0cdab52fb95725d0464f0a35ee2c02f
-SHA256: 6c9cf0685020f6ab99b03be712266cda16525a8781b40de665c2364c8189bd50
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatfriendcheckDp
-Description: 检测微信好友状态（被好友删除、拉黑、被封等）。批量删除好友。
-Tag: purpose::extension, role::enduser, compatible::ios13
-Author: Asmo <asmofun@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatfriendcheckDp
-Dev: asmo
-Name: WechatFriendCheck
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: jp.akusio.debypass
 Version: 0.1.1
@@ -807,27 +741,6 @@ Dev: netskao
 Name: 支付宝 Jailbreaked Bypass
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: netskao.icbcjailbreakedbypass
-Version: 1.1-3
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 244
-Depends: firmware (>= 9.0), mobilesubstrate
-Filename: debs/中国工商银行绕过越狱检测.deb
-Size: 58290
-MD5sum: f449c7115b6d35c4fa870a479fbf590b
-SHA1: df47c494a5d61664ed75d975236dbd644c1621df
-SHA256: edd625bf2b62b647a83b640b0f94bbcffefc69488ecdeaeb28b4e1fe566faa1f
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icbcjailbreakedbypassDp
-Description: 中国工商银行绕过越狱检测
-Tag: purpose::extension
-Author: Netskao <admin@initnil.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icbcjailbreakedbypassDp
-Dev: netskao
-Name: 中国工商银行 Jailbreaked Bypass
-Sponsor: thebigboss.org <http://thebigboss.org>
-
 Package: netskao.qqpurification
 Version: 1.9-9.1
 Architecture: iphoneos-arm
@@ -943,35 +856,19 @@ Priority: important
 Description: universally unique identifiers
 Name: UUID Generator
 
-Package: zorro48810
-Version: 4.8.8
+Package: zorro.bp.588
+Version: 5.8.8
 Architecture: iphoneos-arm
-Maintainer: 爆破者
+Maintainer: zorro官方正式源
 Depends: firmware (>= 8.0), mobilesubstrate
-Filename: debs/zorro_v488.deb
-Size: 11316120
-MD5sum: e0bd186718d44207640157e8705718a8
-SHA1: 4c6a185c0c26db71b729c34bc35eb73f3954afc3
-SHA256: dae61e713c81d6c543efaa0de71b1a0c61d2e5f99d5025f93750505c3e5b43d4
-Section: 佐罗旧版本(卸载后再安装)
-Priority: optional
-Author: 爆破者
-Icon: icon.png
-Name: zorro全系備份4.8.8-10修正版
-
-Package: zorro552
-Version: 5.5.2
-Architecture: iphoneos-arm
-Maintainer: 爆破者
-Depends: firmware (>= 8.0), mobilesubstrate
-Filename: debs/zorro佐罗V5.5.2.deb
-Size: 8487690
-MD5sum: bd2b7c35e3e9cb549946b5f3856c3fcf
-SHA1: 57330e4b569bbeec7c114036b3d6b7bf71940bae
-SHA256: 9c3477aa2fcd4aa7fc27b39648015d4d6a5777e0b340b34d28a0534187afa633
+Filename: debs/zorro588.deb
+Size: 10192100
+MD5sum: 864ce1584eb650cb705afd252dce3380
+SHA1: 710aaf8c37e1b31960f4278d87cf5bbf83cf28c1
+SHA256: 4d34f338c1e6a05aa59a22a421252c6bc812ea2d10b655f6c69ed616d1c633e2
 Section: 佐罗爆破版
 Priority: optional
 Author: zorro
 Icon: icon.png
-Name: zorro全系備份-爆破版5.5.2
+Name: zorro全系備份私隱保護
 
