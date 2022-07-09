@@ -1,17 +1,3 @@
-Package: apt.cydiaba.yuyinzfzh
-Version: 1.8-0
-Architecture: iphoneos-arm
-Installed-Size: 5910
-Depends: mobilesubstrate
-Filename: debs/MP3 to voice.deb
-Size: 6195910
-MD5sum: f6d1da41b0867cf987f3347c2fc344b1
-SHA1: c4bece721365094164a9439eadd29fcc74832a3b
-SHA256: 452d33a3d77866237491fe23a8898e9cfd912092022a2974bb426bcc22b1d208
-Section: TB-娱乐
-Author: 1+1
-Name: MP3转语音+微信语音转发
-
 Package: com.crazymind90.itheosmakertweak
 Version: 1.5
 Architecture: iphoneos-arm
