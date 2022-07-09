@@ -3,7 +3,7 @@ Version: 1.8-0
 Architecture: iphoneos-arm
 Installed-Size: 5910
 Depends: mobilesubstrate
-Filename: debs/MP3转语音+微信语音转发.deb
+Filename: debs/MP3 to voice.deb
 Size: 6195910
 MD5sum: f6d1da41b0867cf987f3347c2fc344b1
 SHA1: c4bece721365094164a9439eadd29fcc74832a3b
@@ -26,46 +26,6 @@ Priority: optional
 Description: An app that helps you to create and manage Theos projects
 Author: @CrazyMind90
 Name: iTheosMaker
-
-Package: com.cydiabc.crackerxi
-Version: 1.1.16
-Architecture: iphoneos-arm
-Maintainer: Ai-小苹果
-Depends: firmware (>= 11.0), ldid (>=2.0)
-Filename: debs/CrackerXI_1.1.16_iphoneos-arm.deb
-Size: 9961142
-MD5sum: e31c39979355591bb5184d0544bd4288
-SHA1: 6ae4e47a681d0b038ab64a96625569eae6f6fe0a
-SHA256: af39c554f393706a1554d91ee9f5d5af1c6367338d8e82c68f96a494b089684c
-Section: 工具
-Description: iosApp砸壳工具,普通用户可用于导出App
- 如出现打开“CrackerXI+”闪退,即表明此应用未正确联网,至于如何联网，请移步百度
-A12: 1
-Author: c0pyn1nja
-Icon: file:///Applications/Cydia.app/Sections/Utilities.png
-Icon2: 5.png
-Name: CrackerXI App脱壳工具
-Sponsor: Ai-小苹果
-
-Package: com.cydiabc.dumpdecrypter
-Version: 1.2-9.4
-Architecture: iphoneos-arm
-Maintainer: Ai-小苹果™
-Installed-Size: 1072
-Depends: firmware (>= 11.0), mobilesubstrate
-Filename: debs/砸壳工具Dumpdecrypter_1.2-9.4_iphoneos-arm.deb
-Size: 235210
-MD5sum: 45e254f1629be9311b5f125514a999b9
-SHA1: fb83a94604512ed92b2e80d57c5f620f413b2a30
-SHA256: a64f63cfdb76a6d9383660e73b4f9ac7d4cdf4601618ed2267a0202fd029aae8
-Section: 工具
-Description: DumpDecrypter是基于dumpdecrypted的修改封装<br>使用方式：通过桌面的DumpDecrypter应用程序选择需要解密的应用<br>在dumpdecrypted基础上增加可选删除小组件可选删除手表组件，可选删除版本限制，可选删除设备限制<br>解密完整应用并导出至/var/mobile/Documents/DumpDecrypter，选择应用后自动杀掉应用进程重新开始，解密前加载所有Frameworks等
-A12: 1
-Author: Netskao
-Icon: file:///Applications/Cydia.app/Sections/Utilities.png
-Icon2: 5.png
-Name: DumpDecrypter砸壳工具
-Sponsor: Ai-小苹果™
 
 Package: com.hbko.wx62
 Version: 5.01
@@ -90,7 +50,7 @@ Version: 0.2~beta9
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
-Filename: debs/NtSpeed免费网速显示.deb
+Filename: debs/NtSpeed.deb
 Size: 121846
 MD5sum: e28e9eb91266d71e3a57f7ecc301b243
 SHA1: 92255e62ea64107b54808a52c55598251923aba8
@@ -102,40 +62,4 @@ Author: julioverne
 Depiction: http://julioverne.github.io/description.html?id=com.julioverne.ntspeed
 Icon: file:///Library/PreferenceBundles/NtSpeedSettings.bundle/icon@2x.png
 Name: NtSpeed
-
-Package: com.powen.permasignerios
-Version: 0.1.2
-Architecture: iphoneos-arm
-Maintainer: Powen <powen0966091716@gmail.com>
-Pre-Depends: firmware (>= 14.0)
-Depends: dpkg, ldid
-Filename: debs/com.powen.permasignerios.0.1.2.deb
-Size: 1770992
-MD5sum: 2629499d037404628070f25328538629
-SHA1: f7bd532fffe5b4768bc5af7b8cbd5c874388a40d
-SHA256: d2eaf48a6f34b69e0a7786d1aa20627f91c1e97e7aa763febf1796b3bd8f4a8b
-Section: Applications
-Description: permasigner on iOS
-Author: Powen <powen0966091716@gmail.com>
-Depiction: https://github.com/powenn/permasigneriOS
-Name: permasigneriOS
-
-Package: reveal2loader
-Version: 1.3
-Architecture: iphoneos-arm
-Maintainer: eziochiu <eziochiuchina@hotmail.com>
-Depends: firmware (>= 8.0), mobilesubstrate, applist, preferenceloader, com.zidaneno5.ExtensionList
-Conflicts: com.rheard.rhrevealloader, com.rheard.reveal-loader
-Replaces: com.rheard.rhrevealloader, com.rheard.reveal-loader
-Filename: debs/reveal2Loader.deb
-Size: 2729616
-MD5sum: 473d1c26e25145e1e1756b317707d492
-SHA1: 30dad846cc900a748c66fdf7ff416f31f7e8e42b
-SHA256: 4668fab8d3ef3d5e2d79e45dfcb51b84b0c42759076cabb1a42e7f0fe7a90d51
-Section: System
-Priority: optional
-Description: dynamically loads Reveal into applications and plugins.
-Author: eziochiu <eziochiuchina@hotmail.com>
-Dev: zidaneno5
-Name: RevealLoader fixed for iOS13
 
